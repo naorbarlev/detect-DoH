@@ -1,14 +1,13 @@
 [package]
 script_dir = scripts
 test_command = cd testing && btest -c btest.cfg
-summary = TODO: A summary of is_DoH in one line
-description = TODO: A more detailed description of is_DoH.
-	It can span multiple lines, with this indentation.
+summary = Detect DoH servers
+description = Detect DoH servers by adding a is_DoH field in ssl.log and add timeout to them so that the DoH connection won't take too long
 depends = 
 	zeek >=4.0.0
 
 [template]
-source = https://github.com/zeek/package-template
+source = https://github.com/naorbarlev/detect-DoH
 version = v3.0.2
 zkg_version = 2.14.0
 
