@@ -1,4 +1,3 @@
-is_DoH
-=================================
+# is_DoH
 
-TODO: tell people what your package does!
+Detect DoH servers by adding a is_DoH field in ssl.log and add timeout to them so that the DoH connection won't take too long
